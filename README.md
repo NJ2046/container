@@ -3,7 +3,7 @@
 ```
 docker image ls
 docker ps
-docker run -itd --name=container_name -p f8088:i8088 -v flocal ilocal --network=network_name image:tag
+docker run -itd --name=container_name -p f8088:i8088 -v flocal:ilocal --network=network_name image:tag
 docker exec -it container_name bash
 docker build -t image_name:image_tag .
 docker container prune
